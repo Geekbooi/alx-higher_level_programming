@@ -1,24 +1,39 @@
 #include "lists.h"
-/**
- * check_cycle - check if loop exists in cycle
- * @list: struct to be checked
- *
- * Return: 1 if it is, 0 if not
- */
 
+/**
+ * check_cycle - checks if a singly linked list has
+ * a cycle in it
+ * @list: pointer to the list
+ * Return: 0 if there is no cycle,
+ * 1 if there is a cycle
+ */
 int check_cycle(listint_t *list)
 {
-	listint_t *turtle = list;
-	listint_t *hare = list;
-
-	if (list == NULL)
-		return (0);
-	while (turtle != NULL && hare != NULL && hare->next != NULL)
+	listint_t *p2;
+	listint_t *prev;
+	p2 = list;
+	prev = list;
+	while (list && p2 && p2->next)
 	{
-		turtle = turtle->next;
-		hare = (hare->next)->next;
-		if (turtle == hare)
+		list = list->next;
+		p2 = p2->next->next;
+		if (list == p2)
+		{
+			list = prev;
+			prev =  p2;
+			while (1)
+			{
+				p2 = prev;
+				while (p2->next != list && p2->next != prev)
+				{
+					p2 = p2->next;
+				}
+				if (p2->next == list)
+					break;
+				list = list->next;
+			}	
 			return (1);
+		}
 	}
 	return (0);
 }
