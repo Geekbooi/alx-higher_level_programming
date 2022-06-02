@@ -7,4 +7,4 @@ if __name__ == "__main__":
     else:
         for i in range(1, len(sys.argv)):
             value = value + int(sys.argv[i])
-            print(value)
+        print(value)
