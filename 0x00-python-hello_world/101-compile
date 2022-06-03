@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 python3 -m compileall $PYFILE -b
+=======
+python3 -m py_compile $PYFILE; mv ./__pycache__/*.pyc "${PYFILE}c"
+>>>>>>> 136292ce6768eb965a501fc52ec785eb7af3781e

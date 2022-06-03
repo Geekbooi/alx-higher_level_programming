@@ -1,4 +1,5 @@
 #include "lists.h"
+<<<<<<< HEAD
 
 /**
  * check_cycle - checks if a singly linked list has
@@ -37,3 +38,27 @@ int check_cycle(listint_t *list)
 	}
 	return (0);
 }
+=======
+/**
+ * check_cycle - checks if a singly linked list has a cycle in it
+ * @list: pointer to start of linked list
+ * desc: this function says if a list is a circle
+ * Return: 0 for fail 1 for success
+ */
+int check_cycle(listint_t *list)
+{
+	listint_t *tortoise = list;
+	listint_t *hare = list;
+
+	if (list == NULL)
+		return (0);
+	while (tortoise != NULL && hare != NULL && hare->next != NULL)
+	{
+		tortoise = tortoise->next;
+		hare = hare->next->next;
+		if (tortoise == hare)
+			return (1);
+	}
+	return (0);
+}
+>>>>>>> 136292ce6768eb965a501fc52ec785eb7af3781e
