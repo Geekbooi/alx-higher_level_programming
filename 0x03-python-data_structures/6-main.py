@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-from add_0 import add
-if __name__ == "__main__":
-    a = 1
-    b = 2
-    print('{} + {} = {}'.format(a, b, add(a, b)))
+print_matrix_integer = __import__
+('6-print_matrix_integer').print_matrix_integer
+matrix = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+]
+
+print_matrix_integer(matrix)
+print("--")
+print_matrix_integer()
