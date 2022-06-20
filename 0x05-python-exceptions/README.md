@@ -22,3 +22,4 @@ Project name	Description
 0x02. Python - import & modules	It aims to learn about importing functions from another file and modules in Python language.
 0x03. Python - Data Structures: Lists, Tuples	It aims to learn about data structures - lists and tuples - in Python language.
 0x04. Python - More Data Structures: Set, Dictionary	It aims to learn more about data structures - sets, dictionaries, lamda functions etc in Python language.
+0x05, python - Exceptions

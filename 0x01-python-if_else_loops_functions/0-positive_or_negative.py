@@ -7,3 +7,4 @@ elif number > 0:
     print("{:d} is positive".format(number))
 else:
     print("0 is zero")
+    
