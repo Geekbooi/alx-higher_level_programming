@@ -102,4 +102,7 @@ void print_python_float(PyObject *p)
 	printf("  value: %s\n", buffer);
 	PyMem_Free(buffer);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26e2fc9fac01a6051b4851e226016adcbbafc4a9
