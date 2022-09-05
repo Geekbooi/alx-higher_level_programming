@@ -1,24 +1,54 @@
-Project Name
-Higher-level programming & Algorithm
+0x0E. SQL - More queries
+Description
+What you should learn from this project:
 
-Author's Details
-Name: Yoseph Mekonnen
-
-Email: yosephmekonnen21@gmail.com
-
-Technologies
-Shell Scripts written in Bash 5.0.17(1).
-Python scripts interpreted/compiled using python3 (version 3.8.5).
-Python scripts use pycodestyle (version 2.8.*).
-C files are compiled using gcc 9.4.0.
-C files are written according to the C99 standard.
-Tested on Ubuntu 20.04 LTS.
-Projects
-All of the following folders are projects done during the studies:
-
-Project name	Description
-0x00. Python - Hello, World	It aims to learn about python programming, the Zen of Python, how to use Python interpreter and print text using print in Python language.
-0x01. Python - if/else, loops, functions	It aims to learn about if, else and loops in Python language.
-0x02. Python - import & modules	It aims to learn about importing functions from another file and modules in Python language.
-0x03. Python - Data Structures: Lists, Tuples	It aims to learn about data structures - lists and tuples - in Python language.
-0x04. Python - More Data Structures: Set, Dictionary	It aims to learn more about data structures - sets, dictionaries, lamda functions etc in Python language.
+How to create a new MySQL user
+How to manage privileges for a user to a database or table
+What’s a PRIMARY KEY
+What’s a FOREIGN KEY
+How to use NOT NULL and UNIQUE constraints
+How to retrieve datas from multiple tables in one request
+What are subqueries
+What are JOIN and UNION
+0. My privileges!
+Write a script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost).
+1. Root user
+Write a script that creates the MySQL server user user_0d_1.
+2. Read user
+Write a script that creates the database hbtn_0d_2 and the user user_0d_2.
+3. Always a name
+Write a script that creates the table force_name on your MySQL server.
+4. ID can't be null
+Write a script that creates the table id_not_null on your MySQL server.
+5. Unique ID
+Write a script that creates the table unique_id on your MySQL server.
+6. States table
+Write a script that creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server.
+7. Cities table
+Write a script that creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server.
+8. Cities of California
+Write a script that lists all the cities of California that can be found in the database hbtn_0d_usa.
+9. Cities by States
+Write a script that lists all cities contained in the database hbtn_0d_usa.
+10. Genre ID by show
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download
+11. Genre ID for all shows
+Import the database dump of hbtn_0d_tvshows to your MySQL server: download (same as 10-genre_id_by_show.sql)
+12. No genre
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 11-genre_id_all_shows.sql)
+13. Number of shows by genre
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 12-no_genre.sql)
+14. My genres
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 13-count_shows_by_genre.sql)
+15. Only Comedy
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 14-my_genres.sql)
+16. List shows and genres
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 15-comedy_only.sql)
+17. Not my genre
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 16-shows_by_genre.sql)
+18. No Comedy tonight!
+Import the database dump from hbtn_0d_tvshows to your MySQL server: download (same as 100-not_my_genres.sql)
+19. Rotten tomatoes
+Import the database hbtn_0d_tvshows_rate dump to your MySQL server: download
+20. Best genre
+Import the database dump from hbtn_0d_tvshows_rate to your MySQL server: download (same as 102-rating_shows.sql)
